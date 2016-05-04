@@ -1,0 +1,122 @@
+#wrapper {
+	width: 1200px;
+	padding: 5% 5% 5% 5%;
+}
+
+header {
+	text-align: center;
+}
+
+	h1 {
+		font-family: Verdana;
+		color: white;
+		text-align: center;
+		font-size: 100px;
+		padding-bottom: 5%;
+	}
+
+	header iframe {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+#cuerpo {
+	height: 700px;
+	background-color: grey;
+	
+}
+
+#article1 {
+	padding: 15px;
+}
+
+#article1 iframe {
+	position: absolute;
+	
+}
+
+#article1 p {
+	font-size: 15pt;
+	font-family: Verdana;
+	
+	text-align: justify;
+	margin-left: 300px;
+	padding: 10px;
+}
+
+#article1 audio {
+	width: 250px;
+	margin-top: 280px;
+	position: absolute;
+	
+}
+
+#article2 {
+	padding: 15px;
+}
+
+#article2 iframe {
+	margin-left: 910px;
+	position: absolute;
+	
+}
+
+#article2 p {
+	font-size: 15pt;
+	font-family: Verdana;
+	position: absolute;
+	
+	text-align: justify;
+	margin-right: 400px;
+	padding: 10px;
+}
+
+#article2 audio {
+	margin-left: 910px;
+	width: 250px;
+	margin-top: 270px;
+	position: absolute;
+	
+}
+
+footer {
+	padding: 5px;
+	background-color: grey;
+	
+
+}
+
+footer p {
+	font-weight: bold;
+	font-size: 18px; 
+}
+
+nav {
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+
+    color: white;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+nav li:hover {
+	background-color: red;
+}
+
